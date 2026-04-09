@@ -36,7 +36,18 @@ struct parameters_t {
 };
 
 bool parse_command(const char* command, parameters_t& data) {
-  // TODO_parse_command_and_update_data
+  int parsed_speed = 0;
+  int parsed_hysteresis = 0;
+
+  if (sscanf(command, "V=%d;H=%d;", &parsed_speed, &parsed_hysteresis) != 2) {
+    Serial.println("Error");
+    return false;
+  }
+
+  data.speed = parsed_speed;
+  data.hysteresis = parsed_hysteresis;
+
+  Serial.println("OK!");
   return true;
 }
 
