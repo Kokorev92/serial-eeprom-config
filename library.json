@@ -1,0 +1,36 @@
+{
+  "name": "todo-serial-eeprom-config-name",
+  "version": "1.0.0",
+  "description": "TODO_short_description",
+  "keywords": [
+    "serial",
+    "eeprom",
+    "config"
+  ],
+  "authors": [
+    {
+      "name": "Yaroslav Kokorev",
+      "email": "Kokorev.yaroslav@gmail.com",
+      "url": "https://dev-blog.ru",
+      "maintainer": true
+    }
+  ],
+  "license": "TODO_license",
+  "homepage": "https://dev-blog.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kokorev92"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "*"
+  ],
+  "headers": [
+    "serial_eeprom_config.h"
+  ],
+  "examples": [
+    "examples/*/*.ino"
+  ]
+}
