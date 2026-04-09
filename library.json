@@ -1,6 +1,6 @@
 {
   "name": "serial-eeprom-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for saving your settings in EEPROM and changing them on the fly via Serial port.",
   "keywords": [
     "serial",
