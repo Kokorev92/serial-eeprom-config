@@ -15,7 +15,7 @@
       "maintainer": true
     }
   ],
-  "license": "TODO_license",
+  "license": "MIT",
   "homepage": "https://dev-blog.ru",
   "repository": {
     "type": "git",
