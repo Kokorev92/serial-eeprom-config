@@ -14,7 +14,7 @@ Module for saving your settings in EEPROM and changing them on the fly via Seria
 
 ```ini
 lib_deps =
-  TODO_registry_owner/todo-serial-eeprom-config-name@^1.0.0
+  ntwanderer/serial-eeprom-config@^1.0.0
 ```
 
 ### Git URL

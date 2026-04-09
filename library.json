@@ -19,7 +19,7 @@
   "homepage": "https://dev-blog.ru",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kokorev92"
+    "url": "https://github.com/Kokorev92/serial-eeprom-config"
   },
   "frameworks": [
     "arduino"
