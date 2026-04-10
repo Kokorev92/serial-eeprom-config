@@ -1,6 +1,6 @@
 {
   "name": "serial-eeprom-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module for saving your settings in EEPROM and changing them on the fly via Serial port.",
   "keywords": [
     "serial",
@@ -25,7 +25,7 @@
     "arduino"
   ],
   "platforms": [
-    "*"
+    "atmelavr"
   ],
   "headers": [
     "serial_eeprom_config.h"
